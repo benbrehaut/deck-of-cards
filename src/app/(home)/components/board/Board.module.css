@@ -1,0 +1,43 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-1);
+  max-width: 800px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: var(--spacing-1);
+  padding-left: var(--spacing-1);
+  padding-right: var(--spacing-1);
+}
+
+.boardCards {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: relative;
+  gap: var(--spacing-1);
+}
+
+.boardCard {
+  position: relative;
+  height: 350px;
+  width: 300px;
+  text-align: center;
+}
+
+.boardCardHolder {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.boardDeckBottom {
+  margin-top: var(--spacing-1);
+  display: flex;
+  gap: var(--spacing-1);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
