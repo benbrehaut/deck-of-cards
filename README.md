@@ -57,7 +57,7 @@ pnpm install
 You will need a `.env` file in the root of the repo to run the app. To create one, copy `.env.local` and rename it to `.env`:
 
 ```bash
-cp .env.local .env
+cp .env.example .env
 ```
 
 Once you have a `.env` file and the packages have finished installing, you can run the app:
@@ -108,7 +108,7 @@ pnpm start
 
 If more time was available:
 
-- Cache the deck ID. Since the deck can be used for 2 weeks, every refresh we are making a request to the Deck of Cards API, which is wasteful. 
+- Cache the deck ID. Since the deck can be used for 2 weeks, every refresh we are making a request to the Deck of Cards API, which is wasteful.
 - Move CSS to a more maintainable solution.
 - Add accessibility improvements, such as moving focus when a card is drawn, when the card's match, when the round has finished, etc.
 - Add integration tests.
